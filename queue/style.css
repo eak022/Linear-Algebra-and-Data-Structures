@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4; /* เปลี่ยนสีพื้นหลัง */
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* เพิ่มระยะห่างระหว่าง input-group */
+}
+
+input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px; /* เพิ่ม padding ให้ input สวยงาม */
+    border: 1px solid #ccc; /* เปลี่ยนสีเส้นขอบ input */
+    border-radius: 5px; /* เพิ่มมุมมนให้ input มีรูปร่างสวยงาม */
+}
+
+button {
+    flex: 0;
+    padding: 10px; /* เพิ่ม padding ให้ button สวยงาม */
+    background-color: #4caf50; /* เปลี่ยนสีพื้นหลังของ button */
+    color: white; /* เปลี่ยนสีตัวอักษรของ button เป็นขาว */
+    border: none; /* ลบเส้นขอบของ button */
+    border-radius: 5px; /* เพิ่มมุมมนให้ button มีรูปร่างสวยงาม */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* เปลี่ยนสีพื้นหลังของ button เมื่อนำเม้าส์ไป hover */
+}
+
+#queueList {
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: #fff; /* เปลี่ยนสีพื้นหลังของ queueList */
+    border-radius: 10px; /* เพิ่มมุมมนให้ queueList มีรูปร่างสวยงาม */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ queueList */
+}
+
+#queueList h3 {
+    color: #333; /* เปลี่ยนสีตัวอักษรของหัวข้อ queueList */
+}
+
+#queueList p {
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #ddd; /* เพิ่มเส้นขอบด้านล่างของแต่ละกล่องข้อมูล */
+}
+
+#queueList p:last-child {
+    border-bottom: none; /* ลบเส้นขอบด้านล่างของกล่องข้อมูลสุดท้าย */
+}
