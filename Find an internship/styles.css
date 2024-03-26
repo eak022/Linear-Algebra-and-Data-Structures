@@ -1,0 +1,70 @@
+/* Style for form */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for matches */
+#matches {
+    margin-top: 20px;
+}
+
+.match {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.match img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px 0 0 5px;
+}
+
+.details {
+    padding: 20px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.details p:first-child {
+    font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .match {
+        flex-direction: column;
+    }
+
+    .match img {
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+}

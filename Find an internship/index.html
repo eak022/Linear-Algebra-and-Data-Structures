@@ -1,0 +1,22 @@
+<form id="matchingForm">
+  <label for="userType">User Type:</label>
+  <select id="userType">
+    <option value="student">Student</option>
+    <option value="employer">Employer</option>
+  </select><br>
+  <!-- Student Preferences -->
+  <h3>Student Preferences:</h3>
+  <input type="checkbox" id="foodAllowance">Food Allowance<br>
+  <input type="checkbox" id="reactSkills">ReactJS Skills<br>
+  <input type="checkbox" id="htmlSkills">HTML Skills<br>
+  <input type="checkbox" id="cssSkills">CSS Skills<br>
+  <!-- Employer Preferences -->
+  <h3>Employer Preferences:</h3>
+  <input type="checkbox" id="foodAllowanceRequired">Requires Food Allowance<br>
+  <input type="checkbox" id="reactSkillsRequired">Requires ReactJS Skills<br>
+  <input type="checkbox" id="htmlSkillsRequired">Requires HTML Skills<br>
+  <input type="checkbox" id="cssSkillsRequired">Requires CSS Skills<br>
+  <button type="submit">Find Matches</button>
+</form>
+
+<div id="matches"></div>

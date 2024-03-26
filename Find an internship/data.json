@@ -1,0 +1,81 @@
+{
+  "students": [
+    {
+      "name": "John Doe",
+      "age": 22,
+      "contact": "john@example.com",
+      "skills": ["ReactJS", "HTML", "CSS"],
+      "image": "john_doe.jpg"
+    },
+    {
+      "name": "Jane Smith",
+      "age": 21,
+      "contact": "jane@example.com",
+      "skills": ["ReactJS", "JavaScript", "Node.js"],
+      "image": "jane_smith.jpg"
+    },
+    {
+      "name": "David Brown",
+      "age": 23,
+      "contact": "david@example.com",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "image": "david_brown.jpg"
+    },
+    {
+      "name": "Emily Johnson",
+      "age": 20,
+      "contact": "emily@example.com",
+      "skills": ["ReactJS", "Redux", "TypeScript"],
+      "image": "emily_johnson.jpg"
+    },
+    {
+      "name": "Michael Wilson",
+      "age": 24,
+      "contact": "michael@example.com",
+      "skills": ["ReactJS", "Angular", "Vue.js"],
+      "image": "michael_wilson.jpg"
+    }
+  ],
+  "employers": [
+    {
+      "name": "ABC Company",
+      "address": "123 Main Street, City",
+      "contact": "abc@example.com",
+      "foodAllowance": true,
+      "requirements": ["ReactJS", "Node.js"],
+      "image": "abc_company.jpg"
+    },
+    {
+      "name": "XYZ Corporation",
+      "address": "456 Park Avenue, Town",
+      "contact": "xyz@example.com",
+      "foodAllowance": false,
+      "requirements": ["HTML", "CSS", "JavaScript"],
+      "image": "xyz_corporation.jpg"
+    },
+    {
+      "name": "123 Enterprises",
+      "address": "789 Elm Street, Village",
+      "contact": "123@example.com",
+      "foodAllowance": true,
+      "requirements": ["ReactJS", "Redux", "TypeScript"],
+      "image": "123_enterprises.jpg"
+    },
+    {
+      "name": "456 Inc.",
+      "address": "101 Oak Road, Hamlet",
+      "contact": "456@example.com",
+      "foodAllowance": false,
+      "requirements": ["ReactJS", "Angular", "Vue.js"],
+      "image": "456_inc.jpg"
+    },
+    {
+      "name": "789 Limited",
+      "address": "303 Pine Lane, Countryside",
+      "contact": "789@example.com",
+      "foodAllowance": true,
+      "requirements": ["ReactJS", "Node.js", "MongoDB"],
+      "image": "789_limited.jpg"
+    }
+  ]
+}
