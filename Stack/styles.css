@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #big-box {
+    display: flex;
+    flex-wrap: wrap; /* เพิ่มคุณสมบัติเพื่อให้แต่งกล่องใหม่ลงไปแถวใหม่ */
+    gap: 10px;
+    width: 300px;
+    height: auto; /* กำหนดความสูงเป็น auto เพื่อให้ขนาดของ big-box พอดีกับข้อมูลที่มี */
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+  }
+  
+  #drop-box, #delete-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 50%; /* กำหนด flex ให้มีความกว้างเท่ากับครึ่งของ big-box */
+    height: 100px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+  }
+  
+  #drop-box:hover, #delete-box:hover {
+    background-color: #dcdcdc;
+    transition: background-color 0.3s ease;
+  }
+  
+  #delete-box {
+    background-color: #ff7979;
+  }
+  
+  .small-box {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .red {
+    background-color: #ff6b6b;
+    margin-right: 10px;
+  }
+  
+  .blue {
+    background-color: #70a1ff;
+    margin-right: 10px
+  }
+  

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drag and Drop Stack Game</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="container">
+  <div id="big-box">
+    <div id="drop-box"></div>
+    <div id="delete-box" class="delete-box">ลบ</div>
+
+  </div>
+  <div id="small-boxes">
+    <div class="small-box red" draggable="true"></div>
+    <div class="small-box blue" draggable="true"></div>
+  </div>
+</div>
+
+<div id="stats">
+  <p id="max-boxes">สามารถใส่ได้สูงสุด: </p>
+  <p id="red-boxes">จำนวนกล่องสีแดง: </p>
+  <p id="blue-boxes">จำนวนกล่องน้ำเงิน: </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
